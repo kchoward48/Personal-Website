@@ -2,4 +2,8 @@
     background: url("img/Landing_Image.jpg") no-repeat;
     background-size: 100% auto;
     padding-bottom: 43em;
-}   
+}
+
+.col-4 {
+    font-size: 1.35vw;
+}
