@@ -1,9 +1,23 @@
 .container-fluid {
     background: url("img/Landing_Image.jpg") no-repeat;
     background-size: 100% auto;
-    padding-bottom: 43em;
 }
 
-.col-4 {
-    font-size: 1.35vw;
+.col-5 p {
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+.col-5 h4 {
+    font-size: 3.2vw;
+    font-style: italic;
+}
+
+.col-5 a {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#empty_row {
+    padding-top: 25em;
 }
