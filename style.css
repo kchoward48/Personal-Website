@@ -5,11 +5,11 @@
 
 .col-5 p {
     text-align: center;
-    font-size: 1.25vw;
+    font-size: 1.1vw;
 }
 
 .col-5 h4 {
-    font-size: 3.2vw;
+    font-size: 3.05vw;
     font-style: italic;
 }
 
@@ -20,4 +20,10 @@
 
 #empty_row {
     padding-top: 25em;
+}
+
+a.image_container img {
+    max-width: 100%;
+    width: 20%;
+    height: auto;
 }
