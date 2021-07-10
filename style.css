@@ -1,29 +1,59 @@
 .container-fluid {
-    background: url("img/Landing_Image.jpg") no-repeat;
-    background-size: 100% auto;
-}
-
-.col-5 p {
-    text-align: center;
-    font-size: 1.1vw;
-}
-
-.col-5 h4 {
-    font-size: 3.05vw;
-    font-style: italic;
-}
-
-.col-5 a {
-    text-align: center;
-    font-size: 1.5vw;
-}
-
-#empty_row {
-    padding-top: 25em;
+    background-color: #E8DE2A;
+    background-size: cover;
 }
 
 a.image_container img {
     max-width: 100%;
     width: 20%;
-    height: auto;
+}
+
+h5.card-title {
+  font-family: ui-rounded;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+p.card-text {
+  font-family: ui-rounded;
+  font-style: italic;
+  font-size: 1.28vw;
+}
+
+h4.ml9 {
+  position: relative;
+  font-size: 4vw;
+  font-style: italic;
+  font-family: ui-rounded;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+}
+
+p.card-text {
+  color: #322413;
+}
+
+img.img-fluid#resume_img {
+  max-width: 7vw;
+}
+
+img.img-fluid#github_img {
+  max-width: 7vw;
+}
+
+img.img-fluid#contact_img {
+  max-width: 10vw;
 }
