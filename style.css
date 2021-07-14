@@ -1,29 +1,34 @@
-.container-fluid {
+.container {
     background-color: #E8DE2A;
-    background-size: cover;
+    background-size: 100vw;
+}
+
+a.lg_image_container img {
+    max-width: 100%;
+    width: 4rem;
 }
 
 a.image_container img {
-    max-width: 100%;
-    width: 20%;
+  max-width: 100%;
+  width: 5rem;
 }
 
-h5.card-title {
+h5 {
   font-family: ui-rounded;
   font-style: italic;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 1.25rem;
 }
 
-p.card-text {
+p {
   font-family: ui-rounded;
   font-style: italic;
-  font-size: 1.28vw;
+  font-size: 1rem;
 }
 
 h4.ml9 {
   position: relative;
-  font-size: 4vw;
+  font-size: 2.9rem;
   font-style: italic;
   font-family: ui-rounded;
 }
@@ -46,14 +51,8 @@ p.card-text {
   color: #322413;
 }
 
-img.img-fluid#resume_img {
-  max-width: 7vw;
+a#sunflower_animation img {
+  max-width: 100%;
+  width: 15rem;
 }
 
-img.img-fluid#github_img {
-  max-width: 7vw;
-}
-
-img.img-fluid#contact_img {
-  max-width: 10vw;
-}
