@@ -1,34 +1,17 @@
-.container {
+.container-fluid {
     background-color: #E8DE2A;
-    background-size: 100vw;
+    padding-bottom: 90px;
 }
 
-a.lg_image_container img {
-    max-width: 100%;
-    width: 4rem;
-}
-
-a.image_container img {
-  max-width: 100%;
-  width: 5rem;
-}
-
-h5 {
+h3 {
   font-family: ui-rounded;
   font-style: italic;
   font-weight: bold;
-  font-size: 1.25rem;
-}
-
-p {
-  font-family: ui-rounded;
-  font-style: italic;
-  font-size: 1rem;
 }
 
 h4.ml9 {
   position: relative;
-  font-size: 2.9rem;
+  font-size: rem;
   font-style: italic;
   font-family: ui-rounded;
 }
@@ -47,12 +30,60 @@ h4.ml9 {
   display: inline-block;
 }
 
-p.card-text {
+.card-text {
   color: #322413;
+  font-family: ui-rounded;
+  font-style: italic;
+  font-size: 1rem;
 }
 
-a#sunflower_animation img {
+.flex-container {
+    width: 80%;
+    min-height: 150px;     
+    display: flex; /* Standard syntax */
+    flex-direction: column;
+}
+
+.flex-container div .nav-container nav a#resume {
+  max-width: 60%;
+}
+
+.flex-container div .nav-container nav a#resume img {
+    max-width: 40%;
+}
+
+.flex-container .nav-container nav a#github {
+  max-width: 40%;
+}
+
+.flex-container .nav-container nav a#github img {
+    max-width: 100%;
+    max-height: 60%;
+} 
+
+.list-group-horizontal a {
+  max-width: 50%;
+}
+
+.list-group-horizontal a img {
+  max-width: 50%;
+}
+
+#sunflower_animation img {
   max-width: 100%;
-  width: 15rem;
 }
 
+#top {
+    -webkit-flex: 1; /* Safari */
+    flex: 1; /* Standard syntax */
+}
+
+#middle {
+    -webkit-flex: 4; /* Safari */
+    flex: 4;
+}
+
+#bottom {
+    -webkit-flex: 2; /* Safari */
+    flex: 2; /* Standard syntax */
+}

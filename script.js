@@ -10,3 +10,10 @@ anime.timeline({loop: false})
     delay: (el, i) => 45 * (i+1)
   })
 
+$(document).ready(function () {
+  $(".launch-modal").click(function(){
+    $("#myModal").modal({
+      backdrop: 'static'
+    });
+  });
+});
